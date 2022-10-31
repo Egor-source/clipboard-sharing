@@ -1,0 +1,27 @@
+{
+  "name": "clipboard-sharing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js prod",
+    "dev": "nodemon  main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "ip": "^1.1.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "node-notifier": "^10.0.1",
+    "node.date-time": "^1.2.2"
+  }
+}
